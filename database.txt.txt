@@ -1,0 +1,37 @@
+﻿<?php
+$connect = mysqli_connect("localhost","root","","Rlist");
+  ?>
+
+
+Database 1 name  : Menu
+Database server name : localhost 
+Database Username : root 
+
+
+Table name :KFC
+
+
+
+
+	CREATE TABLE `Menu`.`KFC` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `food_name` VARCHAR(255) NOT NULL , `food_des` VARCHAR(255)NOT NULL , `food_price` DOUBLE(10,2) NOT NULL, `food_image` VARCHAR(255) NOT NULL ,PRIMARY KEY (`id`))
+
+
+	  
+
+	
+
+
+
+
+
+
+
+Database 2 name  : Rlist
+Database server name : localhost 
+Database Username : root 
+
+
+Table name :list
+
+
+CREATE TABLE `Rlist`.`list` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `r_image` VARCHAR(255) NOT NULL , `r_des` VARCHAR(255)NOT NULL ,`r_status` VARCHAR(255)NOT NULL, `r_name` VARCHAR(255)NOT NULL, PRIMARY KEY (`id`))
